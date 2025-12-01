@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anubhav Prasai - Essays &amp; Reflections</title>
+    <link>https://blog.anubhavprasai.com.np</link>
+    <description>Longform essays on philosophy, technology, attention, and the examined life. Minimal design, maximum depth.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://blog.anubhavprasai.com.np/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title>On the Nature of Time and Memory</title>
+      <link>https://blog.anubhavprasai.com.np/essay/on-the-nature-of-time-and-memory</link>
+      <guid>https://blog.anubhavprasai.com.np/essay/on-the-nature-of-time-and-memory</guid>
+      <description>Time moves in strange ways through our consciousness. This essay explores how memory reshapes our perception of past events and why nostalgia feels simultaneously real and illusory.</description>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 GMT</pubDate>
+      <category>Essays</category>
+    </item>
+    
+    <item>
+      <title>Digital Minimalism as Practice</title>
+      <link>https://blog.anubhavprasai.com.np/essay/digital-minimalism-as-practice</link>
+      <guid>https://blog.anubhavprasai.com.np/essay/digital-minimalism-as-practice</guid>
+      <description>In an age of infinite content and perpetual connectivity, choosing what not to consume becomes a radical act. Reflections on attention, intention, and the quiet spaces we've lost.</description>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
+      <category>Reflections</category>
+    </item>
+    
+    <item>
+      <title>Learning to See Again</title>
+      <link>https://blog.anubhavprasai.com.np/essay/learning-to-see-again</link>
+      <guid>https://blog.anubhavprasai.com.np/essay/learning-to-see-again</guid>
+      <description>On recovering the capacity for genuine attention in a world engineered to capture and commodify it. An exploration of presence, perception, and the art of noticing.</description>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
+      <category>Essays</category>
+    </item>
+    
+    <item>
+      <title>The Tyranny of Productivity</title>
+      <link>https://blog.anubhavprasai.com.np/essay/the-tyranny-of-productivity</link>
+      <guid>https://blog.anubhavprasai.com.np/essay/the-tyranny-of-productivity</guid>
+      <description>What if rest isn't a reward for productivity, but a precondition for meaning? Challenging the cult of optimization and recovering a more humane relationship with time.</description>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 GMT</pubDate>
+      <category>Reflections</category>
+    </item>
+    
+    <item>
+      <title>On Solitude and Loneliness</title>
+      <link>https://blog.anubhavprasai.com.np/essay/on-solitude-and-loneliness</link>
+      <guid>https://blog.anubhavprasai.com.np/essay/on-solitude-and-loneliness</guid>
+      <description>Two states often confused but fundamentally different. An examination of what it means to be alone by choice versus alone by circumstance, and why both matter.</description>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+      <category>Essays</category>
+    </item>
+    
+  </channel>
+</rss>
