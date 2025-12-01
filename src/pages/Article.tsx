@@ -2,6 +2,9 @@ import { useParams, Link } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ShareButtons from "@/components/ShareButtons";
+import RelatedPosts from "@/components/RelatedPosts";
+import ReadingProgress from "@/components/ReadingProgress";
 import { Badge } from "@/components/ui/badge";
 import { Clock, Calendar, ArrowLeft } from "lucide-react";
 import { posts } from "@/data/posts";
@@ -27,6 +30,7 @@ const Article = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      <ReadingProgress />
       <Header />
 
       <main className="flex-1">
@@ -59,6 +63,14 @@ const Article = () => {
 
               <span className="text-muted-foreground">•</span>
               <span>{post.category}</span>
+
+              <div className="ml-auto">
+                <ShareButtons
+                  title={post.title}
+                  url={`/essay/${post.slug}`}
+                  excerpt={post.excerpt}
+                />
+              </div>
             </div>
 
             <div className="flex flex-wrap gap-2">
@@ -81,6 +93,9 @@ const Article = () => {
               </p>
             ))}
           </div>
+
+          {/* Related Posts */}
+          <RelatedPosts currentPost={post} allPosts={posts} />
         </article>
       </main>
 

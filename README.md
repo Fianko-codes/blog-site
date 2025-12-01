@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# The Quiet Laboratory
 
-## Project info
+A personal publication featuring longform essays and thoughtful reflections.
 
-**URL**: https://lovable.dev/projects/37964d06-961c-4321-b548-dca51a584b5e
+## Project Structure
 
-## How can I edit this code?
+- `src/pages`: Main application pages
+- `src/components`: Reusable UI components
+- `src/data`: Content storage (posts.ts)
+- `src/lib`: Utility functions
+- `public`: Static assets
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **RSS Feed**: Automatically generated RSS 2.0 feed for subscribers
+- **SEO Optimized**: Meta tags, Open Graph support, and sitemap generation
+- **Reader Engagement**: Reading progress indicator, social sharing, and related posts
+- **Dark Mode**: User-preference aware dark/light theme
+- **Responsive Design**: Mobile-friendly layout using Tailwind CSS
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/37964d06-961c-4321-b548-dca51a584b5e) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-**Use your preferred IDE**
+2. Start development server:
+   ```bash
+   npm run dev
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+3. Build for production:
+   ```bash
+   npm run build
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Content Management
 
-Follow these steps:
+Posts are stored in `src/data/posts.ts`. To add a new post, simply add a new object to the `posts` array with the following structure:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```typescript
+{
+  id: "unique-id",
+  title: "Post Title",
+  excerpt: "Brief summary...",
+  content: "Full content...",
+  tags: ["tag1", "tag2"],
+  category: "Mathematics" | "CS & AI" | "Reflections",
+  publishDate: "YYYY-MM-DD",
+  readingTime: 5,
+  slug: "url-slug"
+}
 ```
 
-**Edit a file directly in GitHub**
+## License
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/37964d06-961c-4321-b548-dca51a584b5e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT
