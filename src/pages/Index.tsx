@@ -32,7 +32,7 @@ const Index = () => {
           {/* Intro section */}
           <section className="mb-12">
             <h1 className="text-4xl md:text-5xl font-serif font-medium text-foreground mb-4">Essays & Reflections</h1>
-            <p className="text-lg text-muted-foreground font-sans leading-relaxed max-w-2xl">Slow, deliberate explorations of ideas - because some thoughts deserve some more time.</p>
+            <p className="text-lg text-muted-foreground font-sans leading-relaxed max-w-2xl">Longform explorations of ideas worth sitting with. Possibly on any topic I might be interested in</p>
           </section>
 
           {/* Search and filter */}
