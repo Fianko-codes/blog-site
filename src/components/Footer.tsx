@@ -18,7 +18,7 @@ const Footer = () => {
               <Mail className="h-5 w-5" />
             </a>
             <a 
-              href="https://twitter.com/anubhavprasai" 
+              href="https://twitter.com/PrasaiAnubhav" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"

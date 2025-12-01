@@ -1,4 +1,5 @@
 import { useParams, Link } from "react-router-dom";
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Badge } from "@/components/ui/badge";
@@ -9,6 +10,10 @@ import NotFound from "./NotFound";
 const Article = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = posts.find((p) => p.slug === slug);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [slug]);
 
   if (!post) {
     return <NotFound />;
